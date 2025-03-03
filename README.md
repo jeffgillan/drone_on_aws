@@ -1,5 +1,7 @@
 # drone_on_aws
 
+## Login into [AWS Management Console](https://aws.amazon.com/console/) 
+
 Launch VM in AWS EC2
 
 install docker on Vm with shell script
