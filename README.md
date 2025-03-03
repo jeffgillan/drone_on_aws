@@ -1,6 +1,8 @@
-# drone_on_aws
+# Drone Imagery Processing on AWS
 
 ## Login into [AWS Management Console](https://aws.amazon.com/console/) 
+
+Sign-in using root user email. 
 
 Launch VM in AWS EC2
 
