@@ -27,6 +27,7 @@ chmod 400 /Users/jgillan/Downloads/container_test.pem
 `scp -i /Users/jgillan/Downloads/container_test.pem -r ubuntu@3.95.255.230:/home/ubuntu/ /Users/jgillan/Documents`
 
 
+ssh -i "container_test.pem" ubuntu@ec2-3-235-20-137.compute-1.amazonaws.com
 
 
 
