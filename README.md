@@ -47,6 +47,22 @@ Change ownership so we can transfer data into the directory
 
 `ls | parallel -j 4 scp -i /Users/jgillan/Downloads/container_test.pem -r {} ubuntu@54.209.130.223:/mnt/instance-store`
 
+
+## Setup
+
+Does the VM have a GPU?
+
+`lspci | grep -i nvidia`
+
+Are Nvidia drivers installed?
+
+`nvidia-smi`
+
+
+Enable permissions to run a shell script
+
+`chmod +x <script_name>`
+
 ## declare metashape floating license
 `export AGISOFT_FLS=<IP_address>:<port_number>`
 
